@@ -1,0 +1,247 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-width: 1200px;
+    font-family: 'font', sans-serif ;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-title {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.section-offset {
+    padding: 70px 0 0 0;
+}
+
+/* header-top */
+.header-top {
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header-link {
+    margin-right: 40px;
+}
+
+.header-login {
+    margin-left: auto;
+}
+
+.nav-container {
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+
+.header-list {
+    justify-content: space-evenly;
+}
+
+.header-list-item.bt{
+    /* outline: 1px solid red; */
+    align-self: center;
+}
+
+.header-btn {
+    margin-left: 25px;
+}
+
+
+/* special-offer */
+.special-offer-list {
+    justify-content: center;
+    align-items: flex-start;
+}
+.special-offer-list-item {
+    flex-direction: column;
+    width: 573px;
+    /* outline: 1px solid red; */
+    /* flex-shrink: 0; */
+}
+
+.special-offer-list-item:not(:last-child){
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.special-offer-list-item-content{
+    margin-left: 45px;
+    margin-bottom: 40px;
+}
+
+.special-offer-list-item-title{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.special-offer-item-price {
+    margin: 0;
+    margin-bottom: 47px;
+}
+
+/* .special-offer-list-item:last-child {
+    width: 573px;
+    height: 540px;
+} */
+
+
+/* about us */
+.about-us-text {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-weight: normal;
+    line-height: normal;
+}
+
+/* services */
+.services-list {
+    flex-wrap: wrap;
+}
+
+.services-list-item {
+    width: 573px;
+    /* outline: 1px solid red; */
+    margin-bottom: 24px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-list-item:not(:nth-child(2n)) {
+    margin-right: 24px;
+}
+
+.service {
+    margin-bottom: 26px;
+}
+
+.service-text {
+    padding-left: 45px;
+    padding-bottom: 35px;
+}
+
+.service-link {
+    margin: 0;
+    padding: 0;
+
+}
+
+.service-desc {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+
+/* advantage */
+.advantages-list {
+    flex-wrap: wrap;
+}
+
+.advantages-list-item {
+    width: 276px;
+    min-height: 276px;
+    /* outline: 1px solid red; */
+    margin-bottom: 22px;
+    flex-direction: column;
+}
+
+.advantages-list-item:not(:nth-child(4n)) {
+    margin-right: 22px;
+}
+
+.advantages-svg {
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+}
+
+.advantages-item-descr {
+    margin: 0;
+    padding: 0;
+    margin-left: 45px;
+
+}
+
+.placement-list {
+    flex-wrap: wrap;
+}
+
+.placement-list-items {
+    flex-direction: column;
+    /* outline: 1px solid red;  */
+    margin-bottom: 24px;
+    min-width: 374px;
+}
+
+.placement-list-items:not(:nth-child(3n)) {
+    margin-right: 24px;
+}
+
+
+.placement-descr {
+    margin-left: 45px;
+    margin-bottom: 45px;
+}
+
+.placement-price {
+    margin: 0;
+}
+
+.placement-stars {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    gap: 52px;
+}
+
+.placement-hotel {
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.placement-address {
+    margin: 0;
+    margin-bottom: 20px;
+}
